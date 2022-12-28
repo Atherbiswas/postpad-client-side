@@ -29,9 +29,6 @@ const SignUp = () => {
                     <span className="label-text text-black">Password</span>
                 </label>
                 <input type="password" name='password' placeholder="password" className="input input-bordered text-black" />
-                <label className="label">
-                    <Link href="#" className="label-text-alt link link-hover"><span className='text-black'>Forgot password?</span></Link>
-                </label>
                 </div>
                 <div className="form-control mt-6">
                 <button className="btn btn-outline btn-secondary"><span className="capitalize text-xl">Sign Up</span></button>
