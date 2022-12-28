@@ -29,13 +29,13 @@ const SignIn = () => {
                     </label>
                     </div>
                     <div className="form-control mt-6">
-                    <button className="btn btn-secondary"><span className="capitalize text-xl">Sign In</span></button>
+                    <button className="btn btn-outline btn-secondary"><span className="capitalize text-xl">Sign In</span></button>
                     </div>
                     <hr  className='mt-1'/>
-                    <button  className="btn btn-secondary">
+                    <button  className="btn btn-outline btn-secondary">
                         <FcGoogle className='mx-2 text-2xl'></FcGoogle>
-                        <span className="capitalize text-xl">Login With Google</span></button>
-                    <p className='text-center mt-1'>New to postPad? <Link className='text-secondary font-bold' to='/signup'>Sign In</Link> </p>
+                        <span className="capitalize text-xl">Sign In With Google</span></button>
+                    <p className='text-center mt-1'>New to postPad? <Link className='text-secondary font-bold' to='/signup'>Sign Up</Link> </p>
                 </form>
                 </div>
             </div>
