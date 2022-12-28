@@ -6,7 +6,7 @@ import { AuthContext } from "../../../Context/AuthProvider/AuthProvider";
 import { toast } from "react-hot-toast";
 
 const SignIn = () => {
-    const {signInUser, User} = useContext(AuthContext);
+    const {signInUser} = useContext(AuthContext);
     const navigate = useNavigate();
 
     const handleSignIn = (event) => {
@@ -75,7 +75,7 @@ const SignIn = () => {
               New to postPad?{" "}
               <Link className="text-secondary font-bold" to="/signup">
                 Sign Up
-              </Link>{" "}
+              </Link>
             </p>
           </form>
         </div>
