@@ -43,7 +43,7 @@ const WriteBlog = () => {
                 ></textarea>
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-secondary">Post Now</button>
+                <input className="btn btn-secondary lg:w-28" type="submit" value="Post Now" />
               </div>
             </div>
           </div>
