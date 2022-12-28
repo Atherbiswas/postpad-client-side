@@ -10,19 +10,19 @@ const WriteBlog = () => {
       <div className="flex flex-col lg:flex-row-reverse md:flex-row-reverse container mx-auto lg:mt-10 mt-5">
         <div className="basis-5/12 lg:mx-12">
           <div className="stack lg:mt-3">
-            <div className="grid  rounded bg-primary text-primary-content place-content-center">
+            <div className="grid rounded bg-primary text-primary-content place-content-center">
               <img src={blogImg} className="shadow-2xl rounded-sm" alt="" />
             </div>
-            <div className="grid  rounded bg-accent text-accent-content place-content-center">
+            <div className="grid rounded bg-accent text-accent-content place-content-center">
               <img src={blogImg} className="shadow-2xl rounded-sm" alt="" />
             </div>
-            <div className="grid  rounded bg-secondary text-secondary-content place-content-center">
+            <div className="grid rounded bg-secondary text-secondary-content place-content-center">
               <img src={blogImg} className="shadow-2xl rounded-sm" alt="" />
             </div>
           </div>
         </div>
         <div className="basis-7/12">
-          <div className="card flex-shrink-0 w-full  shadow-2xl">
+          <div className="card flex-shrink-0 w-full shadow-md">
             <div className="card-body">
               <div className="form-control">
                 <label className="label">
